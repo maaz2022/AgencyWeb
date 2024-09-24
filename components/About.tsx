@@ -74,9 +74,9 @@ const About = () => {
         </div>
 
         {/* Section Content */}
-        <div className="flex items-center space-x-8 max-w-5xl ">
+        <div className="flex items-center space-x-8 max-w-6xl ">
           <div className="w-1/2">
-            <img src="/about1.png" alt="Image" className="w-full h-auto object-cover rounded-lg shadow-lg" />
+            <img src="/about1.png" alt="Image" className="w-full h-auto object-cover rounded-lg " />
           </div>
           <div className="w-1/2 text-white bg-[#340e52] p-10 opacity-80 rounded-xl">
             <h2 className="text-4xl font-bold mb-4">{sections[activeTab].title}</h2>
