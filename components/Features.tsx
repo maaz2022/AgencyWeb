@@ -37,19 +37,19 @@ const Features = () => {
 
     return (
         <>
-            <div className="relative flex justify-center mt-32 flex-col items-center">
+            <div className="relative flex justify-center mt-60 flex-col items-center">
                 {/* Large heading with absolute positioning */}
                 <h1 className="font-extrabold text-9xl text-[#340e52] opacity-30 absolute -z-10 bottom-44">
                     Features
                 </h1>
 
                 {/* The second heading */}
-                <h2 className="text-6xl font-bold max-w-2xl text-white text-center relative mb-6">
+                <h2 className="text-6xl font-bold max-w-2xl text-black text-center relative mb-6">
                     Essential Integrations with Modern Design
                 </h2>
 
                 {/* Description paragraph */}
-                <p className="max-w-2xl text-center text-white mt-4">
+                <p className="max-w-2xl text-center text-black mt-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
                 </p>
             </div>
